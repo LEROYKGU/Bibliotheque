@@ -1,0 +1,15 @@
+body{
+    margin: 20px;
+}
+.titre a{
+     text-decoration: none;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: small;
+}
+#conteneur{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

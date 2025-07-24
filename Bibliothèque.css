@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+#body{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+.Conteneur{
+    display: flex;
+    background-image: url(day-care-hero-blobs-background.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    height: 95%;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.classe{
+    width: 200px;
+    height: 200px;
+    background-color: #F9C349;
+    display: block;
+    position:relative;
+    margin: 50px;
+    border-radius: 20%;
+    align-items: center;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.classe:hover{
+    width: 185px;
+    height: 185px;
+    transition-duration: 0.6s ;
+    transition-property: all;
+    transition-timing-function: ease;
+    font-size: 15px;
+
+}
+.titre{
+display: flex;
+margin: 25%;
+}
+.titre_1{
+    display: flex;
+    margin:25%;
+    padding-left: 8%;
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+.email{
+    margin-bottom: -7px;
+}
+.titres{
+    margin:22% ;
+}
+footer #contains{
+    margin: 15px;
+    display: flex;
+    font-size: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer #contains .column #logotext{
+    align-self: center;
+    font-size: 15px;                                                                         
+}
+footer #contains .column {
+    align-items: center;
+    width: 250px;
+    
+}
+footer #contains .column .titre{
+    margin-bottom: -5px;
+}
+footer #contains .column .titre_1{
+    margin-bottom: -5px;
+}
+footer #contains .column .links a{
+    color: #F9C349;
+    margin-top: 5px ;
+}
+footer #contains .column .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer #contains .column .link{
+    display: flex;
+    align-items: center;
+}
+footer #contains .column #logo img{
+    size: 150px;
+    height: 150px; 
+}
+footer #contains .column .link{
+    display: flex;
+    padding-left: 50px;
+    align-items: contents;
+}
+footer #contains .column .link img{
+    size: 70px;
+    height: 70px;
+}
+#copyrigth {
+padding-left: 34.5%;
+}
+.back{
+    margin: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #F9C349;
+    width: 100px;
+    height: 30px;
+    align-self: flex-start;
+    border-width: 2px;
+}
+.back a{
+    padding-left:15px ;    
+    font-size: 20px;
+    color:  #F9C349;
+    text-decoration: none;
+}
